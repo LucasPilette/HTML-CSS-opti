@@ -1,0 +1,127 @@
+#principal {
+  margin-left: 20px;
+  margin-right: 20px;
+  width: screen;
+}
+#image {
+  margin-left: 25px;
+  display: flex;
+  align-items: center;
+}
+#logo {
+  display: flex;
+  height: 7vw;
+  width: 21vw;
+}
+#tlj {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+#haut {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  height: auto;
+}
+#menu {
+  background-color: black;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-left: 80px;
+  margin-bottom: 10px;
+  vertical-align: middle;
+}
+.gros {
+  color: white;
+  vertical-align: middle;
+}
+#promo {
+  width: 100%;
+}
+a {
+  color: white;
+  font-size: 25px;
+  margin-right: 10px;
+}
+#menufin {
+  background-color: black;
+  color: white;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-left: 80px;
+}
+#lu {
+  font-size: 24px;
+}
+#centre {
+  display: flex;
+  flex-direction: row;
+}
+section {
+  display: inline-block;
+  width: 60%;
+}
+#droite {
+  background-color: grey;
+  display: flex;
+  vertical-align: top;
+  width: 40%;
+  height: auto;
+}
+
+@media screen and (max-width: 768px) {
+  html {
+    font-size: 100%;
+  }
+  #lu {
+    font-size: 2rem;
+  }
+  h1 {
+    font-size: 2rem;
+  }
+  h2 {
+    font-size: 2rem;
+  }
+  #droite {
+    display: none;
+  }
+  .gros {
+    font-size: 2rem;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+  }
+  #menu {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  #article1 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  section {
+    width: 100%;
+  }
+  #principal {
+    margin-left: 10px;
+  }
+  hr {
+    width: 100%;
+  }
+  table {
+    font-size: 1.6rem;
+  }
+  #formulaire {
+    font-size: 1.5rem;
+  }
+  #logo {
+    width: 50vw;
+    height: 15vw;
+  }
+}
